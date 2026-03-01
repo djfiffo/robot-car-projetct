@@ -156,3 +156,36 @@ This project demonstrates integration of:
 - Multi-robot coordination
 
 ---
+## Project Status and Limitations
+
+This project did not achieve the expected level of performance. 
+Several issues were encountered in both the software and hardware components.
+
+From the software perspective, the navigation logic and coordinate tracking system occasionally produce incorrect position updates. In some cases, the robot miscalculates intersections or updates its grid position inaccurately, which leads to incorrect path decisions.
+
+Although the navigation logic was inspired by Breadth-First Search (BFS), it was not fully implemented. Instead, a simplified rule-based priority system was used. While this approach reduces computational load on the microcontroller, it sometimes results in suboptimal or incorrect routing decisions, especially in more complex obstacle configurations.
+
+On the hardware side, sensor noise and mechanical inconsistencies affected system reliability. The IR line sensors occasionally misread intersections due to lighting conditions or surface reflections. Motor speed variations and slight chassis misalignment also contributed to positioning errors. Additionally, ultrasonic sensor readings were sometimes unstable, causing false obstacle detection.
+
+These combined factors occasionally caused:
+- Incorrect coordinate tracking
+- Improper turning decisions
+- Failure to reach the intended target cell
+- Inconsistent object pushing behavior
+
+---
+
+## Lessons Learned
+
+Despite not fully meeting expectations, this project provided valuable learning experience in:
+
+- PID tuning and stability control
+- Real-world sensor noise handling
+- Embedded system constraints
+- Debugging integrated hardware-software systems
+- Grid-based navigation design
+- The importance of robust state validation in autonomous robots
+
+The project highlights how theoretical logic often behaves differently in real-world robotic systems due to physical limitations and sensor imperfections.
+
+---
