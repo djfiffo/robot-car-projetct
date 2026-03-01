@@ -181,8 +181,6 @@ The project highlights how theoretical logic often behaves differently in real-w
 
 ---
 
----
-
 ## Future Improvements
 
 - Full BFS or A* path planning implementation
