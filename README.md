@@ -147,15 +147,6 @@ This project demonstrates integration of:
 
 ---
 
-## Future Improvements
-
-- Full BFS or A* path planning implementation
-- Dynamic path re-optimization
-- PID auto-tuning
-- SLAM-style environment mapping
-- Multi-robot coordination
-
----
 ## Project Status and Limitations
 
 This project did not achieve the expected level of performance. 
@@ -189,3 +180,18 @@ Despite not fully meeting expectations, this project provided valuable learning 
 The project highlights how theoretical logic often behaves differently in real-world robotic systems due to physical limitations and sensor imperfections.
 
 ---
+
+---
+
+## Future Improvements
+
+- Full BFS or A* path planning implementation
+- Dynamic path re-optimization
+- PID auto-tuning
+- SLAM-style environment mapping
+- Multi-robot coordination
+
+---
+
+## Author
+-djfiffo
