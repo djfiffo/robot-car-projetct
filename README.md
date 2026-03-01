@@ -192,6 +192,3 @@ The project highlights how theoretical logic often behaves differently in real-w
 - Multi-robot coordination
 
 ---
-
-## Author
--djfiffo
